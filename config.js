@@ -1,6 +1,6 @@
 module.exports = {
   //Port
-  PORT: process.env.PORT || 3300,
+  PORT: process.env.PORT || 5000,
 
   //App Name
   appName: "enter_your_appName",
@@ -16,7 +16,7 @@ module.exports = {
   PASSWORD: "bkmfwpqdhkwbhdav",
 
   //Server URL
-  baseURL: "http://localhost:3300/",
+  baseURL: "http://localhost:5000/",
 
   //aws credentials
   hostName: "your_hostName",
