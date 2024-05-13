@@ -434,7 +434,7 @@ exports.updateImage = async (req, res) => {
     console.log("old image: ", admin.image);
 
     //delete the old image from digitalOcean Spaces
-    const urlParts = admin.image.split("/");
+    const urlParts = admin.image;
     const keyName = urlParts.pop(); //remove the last element
     const folderStructure = urlParts.slice(3).join("/"); //Join elements starting from the 4th element
 
