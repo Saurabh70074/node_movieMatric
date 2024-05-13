@@ -16,7 +16,7 @@ module.exports = {
   PASSWORD: "bkmfwpqdhkwbhdav",
 
   //Server URL
-  baseURL: "https://api.moviematric.com",
+  baseURL: "https://api.moviematric.com/",
 
   //aws credentials
   hostName: "https://s3.ap-south-1.amazonaws.com",
